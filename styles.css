@@ -1,0 +1,126 @@
+html {
+   height: 100%;
+   overflow: hidden;
+}
+
+body {
+   text-align: center;
+   background-image: url("https://cutewallpaper.org/21/cyberpunk-rain-wallpaper/Cyberpunk-Night-City-Shape-your-computer-beautifully.gif");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+}
+
+.doingFine {
+   font-family: "Press Start 2P", cursive;
+   font-size: 3rem;
+   margin: 5%;
+   color: #fef2bf;
+   text-shadow: 0 0 10px #fef2bf9f, 0 0 40px #fef2bf9f, 0 0 80px #fef2bf9f;
+}
+
+.container {
+   display: block;
+   width: 50%;
+   margin: auto;
+}
+
+.btn {
+   margin: 25px;
+   display: inline-block;
+   height: 200px;
+   width: 200px;
+   /* border: 10px solid black; */
+   border-radius: 20%;
+}
+
+.game-over {
+   background-color: red;
+   opacity: 0.8;
+}
+
+.red {
+   background-color: #0b0b0b3b;
+   box-shadow: 0 0 10px #0b0b0b, 0 0 40px #0b0b0b, 0 0 80px #0b0b0b;
+}
+
+.green {
+   background-color: #ff26e95a;
+   box-shadow: 0 0 10px #ff26e9, 0 0 40px #ff26e9, 0 0 80px #ff26e9;
+}
+
+.blue {
+   background-color: #05d9e858;
+   box-shadow: 0 0 10px #05d9e8, 0 0 40px #05d9e8, 0 0 80px #05d9e8;
+}
+
+.yellow {
+   background-color: #ffda245c;
+   box-shadow: 0 0 10px #ffda24, 0 0 40px #ffda24, 0 0 80px #ffda24;
+}
+
+.pressed {
+   box-shadow: 0 0 20px rgba(255, 255, 255, 0.285);
+   background-color: rgba(0, 0, 0, 0.156);
+}
+
+.youLost {
+   text-shadow: 0 0 10px #f7201985, 0 0 40px #f7201985, 0 0 80px #f7211985;
+   animation: glitch1 2.5s infinite;
+}
+
+@keyframes glitch1 {
+   0% {
+      transform: none;
+      opacity: 1;
+   }
+   7% {
+      transform: skew(-0.5deg, -0.9deg);
+      opacity: 0.75;
+   }
+   10% {
+      transform: none;
+      opacity: 1;
+   }
+   27% {
+      transform: none;
+      opacity: 1;
+   }
+   30% {
+      transform: skew(0.8deg, -0.1deg);
+      opacity: 0.75;
+   }
+   35% {
+      transform: none;
+      opacity: 1;
+   }
+   52% {
+      transform: none;
+      opacity: 1;
+   }
+   55% {
+      transform: skew(-1deg, 0.2deg);
+      opacity: 0.75;
+   }
+   50% {
+      transform: none;
+      opacity: 1;
+   }
+   72% {
+      transform: none;
+      opacity: 1;
+   }
+   75% {
+      transform: skew(0.4deg, 1deg);
+      opacity: 0.75;
+   }
+   80% {
+      transform: none;
+      opacity: 1;
+   }
+   100% {
+      transform: none;
+      opacity: 1;
+   }
+}
